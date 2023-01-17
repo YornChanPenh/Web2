@@ -1,0 +1,253 @@
+.section{
+    width: 80%;
+    margin: auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.header{
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    
+}
+#logo{
+    font-family: sans-serif;
+    font-weight: bold;
+    flex: 1;
+    
+}
+.header ul{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+.header ul li{
+    list-style: none;
+}
+.header a{
+    font-family: sans-serif;
+    font-size: 0.7rem;
+}
+#home{
+    font-weight: bold;
+    color: red;
+}
+#download{
+    background-color: royalblue;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    color: white;
+}
+#download:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+    border: 1px solid royalblue;
+}
+/* title css */
+
+.main_session{
+    height: 85vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.main_session img{
+    height: 300px;
+    width: 400px;
+}
+.title h4{
+    color: goldenrod;
+    font-family: sans-serif;
+    font-size: 0.5rem;
+    background-color: rgb(231, 231, 154);
+    padding: 0.3rem 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+.title h2{
+    margin: 0.5rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 0;
+    font-size: 1.5rem;color: rgb(18, 46, 187);
+}
+.title p{
+    font-family: sans-serif;
+    font-size: 0.7rem;
+    color: gray;
+}
+.title button{
+    margin-top: 2rem;
+    background-color: royalblue;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    color: white;
+    margin-bottom: 5rem;
+    border: 1px solid royalblue;
+}
+.title button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+    border: 1px solid royalblue;
+}
+#btn-cotact{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+    border: 1px solid royalblue;
+}
+#btn-cotact:hover{
+    margin-top: 2rem;
+    background-color: royalblue;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    color: white;
+    margin-bottom: 5rem;
+}
+/* 
+feature */
+
+.feature{
+    width: 80%;
+    margin: auto;
+}
+.feature h4{
+    color: goldenrod;
+    font-family: sans-serif;
+    font-size: 0.5rem;
+    background-color: rgb(231, 231, 154);
+    padding: 0.3rem 1rem;
+    width: 4.5rem;
+    border-radius: 2rem;
+    margin: auto;
+}
+.feature h2{
+    margin: 0.5rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 0;
+    font-size: 1.5rem;color: rgb(18, 46, 187);
+    text-align: center;
+}
+.feature p{
+    font-family: sans-serif;
+    font-size: 0.7rem;
+    color: gray;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 3rem;
+
+}
+.flex-3{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6rem;
+    
+}
+.flex-3 img{
+    width: 50px;
+    height: 50px;
+}
+.flex-3 h3{
+font-family: sans-serif;
+font-weight: bold;
+font-size: 0.9rem;
+}
+.flex-3 p{
+    font-family: sans-serif;
+    font-size: 0.7rem;
+    color: gray;
+    text-align: center;
+}
+.feature-card{
+    text-align: center;
+    width: 25%;
+    
+}
+
+.about{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10vh;
+}
+.about1{
+    padding-righ: 10%;
+}
+.about-us{
+    padding-left: 10%;
+}
+
+.about1 img{
+
+    width: 460px;
+    height: 300px;
+}
+
+.about-us h4{
+    color: goldenrod;
+    font-family: sans-serif;
+    font-size: 0.5rem;
+    background-color: rgb(231, 231, 154);
+    padding: 0.3rem 1rem;
+    width: 4.8rem;
+    border-radius: 2rem;
+}
+.about-us h2{
+    margin: 0.5rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 0;
+    font-size: 1.5rem;color: rgb(18, 46, 187);
+}
+.about-us p{
+    font-family: sans-serif;
+    font-size: 0.7rem;
+    color: gray;
+    margin: 0.5rem;
+}
+
+.about-us ol li{
+    font-family: sans-serif;
+    font-size: 0.7rem;
+    color: gray;
+    margin: 0.5rem;
+    margin-left: 1.5rem;
+}
+.about-us button{
+    background-color: royalblue;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    color: white;
+    margin: 1rem 0;
+    margin-left: 1rem;
+}
+.about-us button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+    border: 1px solid royalblue;
+
+}
